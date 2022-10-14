@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 import "./Search.css";
 
 export default function Search() {
     let [word, setWord] = useState("");
+    let [definitions, setDefinitions] = useState(null);
 
     function handleResponse(response) {
-        console.log(response.data);
+        setDefinitions(response.data[0]);
     }
 
     function lookup(event) {
@@ -44,6 +46,7 @@ export default function Search() {
         </div>
       </div>
       </form>
+      <Results results={definitions} />
       </div>
     );
 }
