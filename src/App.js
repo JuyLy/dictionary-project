@@ -10,7 +10,7 @@ function App() {
       <div className='container'>
       <Search />
       </div>
-      <footer>Coded by July Lystopadska</footer>
+      <footer>Coded by July Lystopadska and is open-sourced on <a href='https://github.com/JuyLy/dictionary-project'>Github</a></footer>
     </div>
   );
 }

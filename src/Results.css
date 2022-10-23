@@ -1,3 +1,16 @@
-.Results {
-    margin: 30px 150px 0 250px;
+.Results section {
+    background-color: azure;
+    border: 3px solid azure;
+    border-radius: 20px;
+    margin: 20px 200px;
+    padding: 30px
+}
+
+h2 {
+    color: rgb(36, 60, 197);
+}
+
+.phonetic {
+    color: rgb(0, 14, 93);
+    opacity: 0.9;
 }

@@ -1,12 +1,25 @@
+body {
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,180,233,0.9447129193474265) 100%);
+}
+
 .App-header {
   font-size: 40px;
   text-align: center;
-  margin: 50px 0;
-  color: blue;
-  font-weight: 500;
+  margin: 50px 0 25px;
+  color: #0198fd;
+  text-shadow: white 2px 2px 4px;
+  font-weight: 600;
+  font-family: 'Dancing Script';
 }
 
 footer {
-  margin-top: 100px;
+  margin: 35px 0;
   text-align: center;
+  font-family: 'Dancing Script';
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
 }
